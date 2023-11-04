@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="homepagecss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a417d6f0e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Cat.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#about">Education</a></li>
+                    <li><a href="#about">Skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Welcome to my Homepage</p>
+                <h1><span>Sikantchaya Thepa</span></h1>
+                <p>66070503452</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="studentpic2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 clas="sub-title">About Me</h1><p>⋆˙⟡♡⟡⋆˙</p>
+                    <p>My namie is Sikantchaya Thepa. You can call me 'Guild'.<br> I live in Bangkok,Thailand. I like to sleep and play games in my free time. I'm interest in reading books and watching National Geographic. I don't have any experience.<br></p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Sleep Ability</span><br>I can sleep anywhere and anytime.</li>
+                            <li><span>Lazier than your cat</span><br>If you think your cat is so lazy, I'm better.</li>
+                            <li><span>Live-to-Eat NOT Eat-to-Live</span><br>Yummy foods are required.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Planning to move out from earth</li>
+                            <li><span>2020 - 2022</span><br>Sleep Eat and Repeat</li>
+                            <li><span>2017 - 2019</span><br>Sleep 8 hours per day</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>CPE37 KMUTT (idk why am i here too)</li>
+                            <li><span>2020 - 2022</span><br>Grade 10-12 at SNR too</li>
+                            <li><span>2017 - 2019</span><br>Grade 7-9 at SNR</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Service</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-moon"></i>
+                    <h2>Sleep instead of you</h2>
+                    <p>No time to sleep? I'm here to sleep</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Classrooms are also Playrooms</h2>
+                    <p>Games are not allow to play in class? wait wattt!?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-burger"></i>
+                    <h2>Lunch Timer</h2>
+                    <p>Did you just say that this class just start last 10 minutes? I'm about to hungry</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pic1.jpg">
+                    <div class="layer">
+                        <h3>Laundry ♡</h3>
+                        <p>Nothing better than weekly chores</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic2.jpg">
+                    <div class="layer">
+                        <h3>My Desk ♡</h3>
+                        <p>Bluey but Cozy</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pic3.jpg">
+                    <div class="layer">
+                        <h3>My Messy Side ♡</h3>
+                        <p>Nothing but Cute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sikantchaya.thep@mail.kmutt.ac.th</p>
+                    <p><i class="fa-solid fa-phone"></i>0840102655</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61551554833182"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Sikantchaya Thepa <i class="fa-regular fa-heart"></i> 66070503452</p>
+        </div>
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
